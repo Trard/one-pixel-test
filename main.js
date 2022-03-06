@@ -1,5 +1,5 @@
-import '/style.css';
-import getRandomIntInclusive from '/random.js';
+import './style.css';
+import getRandomIntInclusive from './random.js';
 
 var pixel = document.createElement('div');
 pixel.className = "pixel"
