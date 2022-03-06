@@ -8,8 +8,6 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "css-loader": "^6.7.0",
-    "style-loader": "^3.3.1",
     "vite": "^2.8.0"
   }
 }
