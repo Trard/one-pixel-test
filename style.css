@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.invisible-button {
+  background: transparent;
+  position: fixed, absolute;
+  border: none !important;
+  font-size: 0;
+}
+
+.pixel {
+  background-color: black;
+  position: absolute;
+  width: 1px; 
+  height: 1px;
+}
