@@ -12,11 +12,4 @@ pixel.style.left = `${randomWidth}px`;
 document.body.appendChild(pixel);
 console.log(randomHeight, randomWidth)
 
-var invisible_button = document.createElement('div');
-invisible_button.className = "invisible-button"
-invisible_button.onclick = function() {window.location.reload();}
-
-invisible_button.style.width = `${document.documentElement.clientWidth}px`;
-invisible_button.style.height = `${document.documentElement.clientHeight}px`;
-
-document.body.appendChild(invisible_button);
+document.addEventListener("click", window.location.reload);
