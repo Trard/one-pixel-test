@@ -12,4 +12,4 @@ pixel.style.left = `${randomWidth}px`;
 document.body.appendChild(pixel);
 console.log(randomHeight, randomWidth)
 
-document.addEventListener("click", window.location.reload);
+document.addEventListener("click", window.location.reload.bind(window.location));
